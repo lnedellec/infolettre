@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'mariannebold';
+    src: url('fonts/Marianne/marianne-light-webfont.woff2') format('woff2'),
+         url(' fonts/Marianne/marianne-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'marianneextrabold';
+    src: url('fonts/Marianne/marianne-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/Marianne/marianne-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mariannelight';
+    src: url('fonts/Marianne/marianne-light-webfont.woff2') format('woff2'),
+         url('fonts/Marianne/marianne-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mariannemedium';
+    src: url('fonts/Marianne/marianne-medium-webfont.woff2') format('woff2'),
+         url('fonts/Marianne/marianne-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'marianneregular';
+    src: url('fonts/Marianne/marianne-regular-webfont.woff2') format('woff2'),
+         url('fonts/Marianne/marianne-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mariannethin';
+    src: url('/fonts/Marianne/marianne-thin-webfont.woff2') format('woff2'),
+         url('/fonts/Marianne/marianne-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+html{
+    overflow : scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: 'Mariannebold';
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.gjs-cv-canvas{
+    right: 0;
+    left: unset;
+}
